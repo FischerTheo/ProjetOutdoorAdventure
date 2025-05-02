@@ -1,0 +1,25 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+header {
+    height: 58vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(./../img/project-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+
+}
+
+
+.separator {
+    width: 50px;
+    height: 3px;
+    background-color: #FB2056;
+}

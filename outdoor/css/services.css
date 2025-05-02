@@ -1,0 +1,151 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+header {
+    height: 58vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(./../img/services-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+
+}
+
+
+
+#Separator {
+    width: 90px;
+    height: 3px;
+    background-color: #FB2056;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+
+.text {
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text p {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #191919;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+.images{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 5px 0px 3px #b6b6b6;
+    filter: sepia(10%)  brightness(115%) saturate(80%);
+}
+
+.images h2 {
+    margin-top: 7%;
+    font-size: 20px;
+}
+
+.images p {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.missionB {
+    margin: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5%;
+
+
+}
+
+.textPart {
+    margin: 0%;
+    padding: 2%;
+    width: 25%;
+    line-height: 1.7;
+    margin-right: 4%;
+
+}
+
+.missionTitle {
+    margin: 0;
+    padding-bottom: 6%;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+
+.missionTitleB {
+    margin: 0;
+    padding-bottom: 6%;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+
+
+
+.missionB ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.missionB ul li {
+    position: relative;
+    padding-left: 35px;
+
+    margin-bottom: 10px;
+}
+
+.missionB ul li .separator {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 13px;
+    height: 3px;
+    background-color: #FB2056;
+    border-radius: 1px;
+}

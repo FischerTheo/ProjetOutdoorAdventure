@@ -1,0 +1,117 @@
+@import url(./header.css);
+@import url(./footer.css);
+
+header {
+    height: 58vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(./../img/about-bg-5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+
+}
+
+
+
+
+.separator {
+    width: 50px;
+    height: 3px;
+    background-color: #FB2056;
+}
+/*---------*/
+
+.missionA {
+    margin: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5%;
+
+
+}
+
+.image {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 8px 15px 0px 3px #b6b6b6;
+}
+
+
+
+.cascade {
+    border-radius: 10px;
+}
+
+
+.missionB {
+    margin: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5%;
+
+
+}
+
+.textPart {
+    margin: 0%;
+    padding: 2%;
+    width: 25%;
+    line-height: 1.7;
+    margin-right: 4%;
+
+}
+
+.missionTitle {
+    margin: 0;
+    padding-bottom: 6%;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+
+.missionTitleB {
+    margin: 0;
+    padding-bottom: 6%;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+
+
+
+.missionB ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.missionB ul li {
+    position: relative;
+    padding-left: 35px;
+
+    margin-bottom: 10px;
+    /* Add spacing between list items */
+}
+
+.missionB ul li .separator {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 13px;
+    height: 3px;
+    background-color: #FB2056;
+    border-radius: 1px;
+}
+
