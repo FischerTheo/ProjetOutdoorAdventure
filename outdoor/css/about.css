@@ -1,3 +1,4 @@
+@import url(./body.css);
 @import url(./header.css);
 @import url(./footer.css);
 
@@ -25,17 +26,26 @@ header {
     height: 3px;
     background-color: #FB2056;
 }
-/*---------*/
+/*-------------------------------mission----------------------------------------*/
 
-.missionA {
+.mission {
     margin: 6%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 2.5%;
+}
 
+
+.textPart {
+    margin: 0%;
+    padding: 2%;
+    width: 25%;
+    line-height: 1.7;
+    margin-right: 4%;
 
 }
+
 
 .image {
     width: 30%;
@@ -53,7 +63,10 @@ header {
 }
 
 
-.missionB {
+
+/*-------------------------------mission-list---------------------------------------*/
+
+.mission-list {
     margin: 6%;
     display: flex;
     justify-content: center;
@@ -63,16 +76,9 @@ header {
 
 }
 
-.textPart {
-    margin: 0%;
-    padding: 2%;
-    width: 25%;
-    line-height: 1.7;
-    margin-right: 4%;
 
-}
 
-.missionTitle {
+.mission-title {
     margin: 0;
     padding-bottom: 6%;
     font-size: 34px;
@@ -81,7 +87,7 @@ header {
 }
 
 
-.missionTitleB {
+.list-title {
     margin: 0;
     padding-bottom: 6%;
     font-weight: bold;
@@ -91,21 +97,19 @@ header {
 
 
 
-.missionB ul {
+.mission-list ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.missionB ul li {
+.mission-list ul li {
     position: relative;
     padding-left: 35px;
-
     margin-bottom: 10px;
-    /* Add spacing between list items */
 }
 
-.missionB ul li .separator {
+.mission-list ul li .separator {
     position: absolute;
     left: 0;
     top: 50%;

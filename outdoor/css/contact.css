@@ -1,3 +1,4 @@
+@import url(./body.css);
 @import url(./header.css);
 @import url(./footer.css);
 
@@ -22,4 +23,89 @@ header {
     width: 50px;
     height: 3px;
     background-color: #FB2056;
+}
+
+
+
+
+.hero {
+    margin: 3%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20%;
+}
+
+/*---------------------------------------formulaire-------------------------------------------------------------------*/
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.contact-form input, textarea{
+    width: 200%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: vertical;
+}
+
+
+.contact-form textarea {
+    height: 150px;
+
+}
+
+
+.contact-form input[type="submit"] {
+    background-color: #FB2056;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 60%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+/*---------------------------------------logo-------------------------------------------------------------------*/
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.social button {
+    background-color: #FB2056;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social button img {
+    width: 20px;
+    height: 25x;
+}
+
+/*---------------------------------------hover-------------------------------------------------------------------*/
+
+.contact-form input[type="submit"]:hover {
+    background-color: #d81b4a;
+}
+
+.social button:hover {
+    background-color: #d81b4a;
 }

@@ -1,0 +1,19 @@
+::selection {
+    color: white;
+    background: #FB2056;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 226, 226);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 27.2px;
+
+}
+
+main p {
+
+    color: #404040;
+}
